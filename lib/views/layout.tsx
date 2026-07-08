@@ -5,6 +5,10 @@ export const Layout: FC = (props) => (
         <head>
             <title>Welcome to RSSHub!</title>
             <script src="https://cdn.tailwindcss.com"></script>
+            <script>
+                {`window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`}
+            </script>
+            <script defer src="/_vercel/insights/script.js"></script>
             <style>
                 {`
                 details::-webkit-scrollbar {
